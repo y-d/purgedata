@@ -1,0 +1,76 @@
+-- Decompiler will be improved soon!
+-- Decompiled with Konstant V2.1, a fast Luau decompiler made in Luau by plusgiant5 (https://discord.gg/wyButjTMhM)
+-- Decompiled on 2025-03-17 06:29:32
+-- Luau version 6, Types version 3
+-- Time taken: 0.006555 seconds
+
+return {{{
+	name = "2.0L I4";
+	price = 0;
+	speed = 0;
+}, {
+	name = "2.2L I4";
+	price = 350;
+	speed = 14;
+	override = {
+		peakPower = 118;
+		peakTorque = 217;
+		peakPowerRPM = 5650;
+		peakTorqueRPM = 3900;
+		redline = 6000;
+	};
+}, {
+	name = "3.0L V6";
+	sound = "V6";
+	price = 2000;
+	speed = 37;
+	override = {
+		peakPower = 154;
+		peakTorque = 285;
+		peakPowerRPM = 6000;
+		peakTorqueRPM = 3750;
+		redline = 6500;
+	};
+	add = {
+		weight = 20;
+	};
+}, {
+	name = "LS 4.8L V8 Swap";
+	price = 32000;
+	rating = 0.2;
+	speed = 55;
+	sound = "V8low";
+	override = {
+		peakPower = 260;
+		peakTorque = 495;
+		peakPowerRPM = 5600;
+		peakTorqueRPM = 4400;
+		redline = 6000;
+	};
+	add = {
+		weight = 100;
+		backFireRate = 0.3;
+		popsSoundRate = 0.1;
+	};
+}}, {{
+	name = "Stock";
+	price = 0;
+}, {
+	name = "Rocket";
+	price = 20000;
+	sound = "V8low";
+	override = {
+		maxSpeed = 280;
+		peakPower = 662;
+		peakTorque = 1250;
+		peakPowerRPM = 6000;
+		peakTorqueRPM = 2500;
+		redline = 7200;
+		pitchMultiplier = 0.6;
+	};
+	add = {
+		weight = 100;
+		backFireRate = 0.1;
+		popsSoundRate = 0.1;
+	};
+}}, -- : First try: runluau:11745: attempt to index nil with 't'
